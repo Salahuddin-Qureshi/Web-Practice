@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Practise</title>
+</head>
+
+<body>
+    <fieldset style="width: fit-content;">
+        <legend>This is a fieldset practise</legend>
+        <div>
+            <h1>This is heading h1</h1>
+            <p>This is paragraph one inside div1</p>
+        </div>
+        <div>
+            <h1>This is heading h2</h1>
+            <p>This is paragraph two inside div1</p>
+        </div>
+
+    </fieldset>
+    <form action="">
+        <label for="name">Name : </label><br />
+        <input type="text" id="name" name="name"><br /><br>
+        <label for="email">Email : </label><br />
+        <input type="email" id="email" name="email" required><br /><br>
+        <input type="button" value="Submit">
+    </form>
+    <select name="food" id="food" style="margin-left: 30px;">
+        <option value="apple">Apple</option>
+        <option value="mango">Mango</option>
+        <option value="pineapple">Pine Apple</option>
+    </select>
+    <!-- <input type=“hidden” name=“hiddenValue” value=“hiddenText” /> -->
+    <form action="">
+        <div style="border: 1px solid black; width: fit-content; height: 70px;">
+            <label for="userid">User Id : </label>
+            <input type="text" placeholder="000-00-0000"><br>
+            <input type="button" value="Reset" style="float: right;"><br>
+            <input type="button" value="Submit" style="float: right;">
+        </div>
+
+    </form>
+    <form action="">
+        <div style="border: 1px solid black; width: fit-content; height: 70px;">
+            <label for="userid">User Id : </label>
+            <input type="text" placeholder="000-00-0000"><br>
+            <div style="float: right;">
+                <input type="button" value="Reset" style="justify-content: center;"><br>
+                <input type="button" value="Submit" style="justify-content: center;">
+            </div>
+        </div>
+    </form>
+
+    <div>
+        <input type="radio" name="Option1" value="Option 1">
+        <label for="Option1">Option 1</label>
+        <input type="radio" name="Option2" value="option 2">
+        <label for="Option2">Option 2</label>
+    </div>
+
+    <input type="file" accept="image/png"
+    multiple required>
+
+</body>
+
+</html>

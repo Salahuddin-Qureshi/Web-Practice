@@ -1,0 +1,44 @@
+h1{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+#profession{
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+}
+img{
+    width: 20px;
+}
+#socialmedia{
+    text-align: center;    
+}
+#aboutme{
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+}
+#projects{
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+}
+.outercontainer{
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    height: 180px;
+
+
+}
+.image{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+ 

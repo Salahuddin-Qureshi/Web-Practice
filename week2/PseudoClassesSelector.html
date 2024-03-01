@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1:hover {
+            background-color: aquamarine;
+
+        }
+
+        h1::first-letter {
+            color: brown;
+            font-size: 70px;
+        }
+
+        Button:hover {
+            background-color: dodgerblue;
+            transform: rotate(50deg);
+            /* animation: 1ms spin infinite; */
+            margin: 20px;
+            padding: 20px;
+
+        }
+
+        /* div:first-child{
+            background-color: aquamarine;
+        } */
+        div p:first-child:hover {
+            color: blue;
+        }
+
+        h2.a {
+            visibility: visible;
+        }
+
+        h2.b {
+            visibility: hidden;
+        }
+
+        .image_container {
+            float: left;
+            /* width: 33.33%; */
+            padding: 5px;
+
+
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is the practise set of Pseudo-Classes Selector in CSS.</h1><br />
+    <div>
+        <p>
+            This is being used to change the element while it is being hovered or it got focused by the user
+        </p>
+        <p>
+            This is second child of the div inside body
+        </p>
+    </div>
+
+    <Button>Submit</Button>
+    <button onclick="myFunction()">Click me</button>
+    <script>
+        function myFunction() {
+            alert("You clicked the button!");
+        }
+    </script>
+    <h2 class="a">This is heading 2 and it is visible</h2>
+    <h2 class="b">This is heading 2 and it is hidden</h2>
+    <h2>None the less the hidden is also taking the space </h2>
+
+    <div>
+        <p><img src="pic2.png" alt="Image not found" width="400px" height="200px" style="float: right;">Lorem, ipsum
+            dolor sit amet consectetur adipisicing elit. Dolores reprehenderit quam molestias quidem hic fuga amet odit
+            tempora! Cupiditate, temporibus atque. Animi nemo perspiciatis illum molestias beatae maxime recusandae!
+            Dolores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam necessitatibus, sit distinctio
+            natus nam magni quibusdam deserunt quam, ullam vel voluptatem reprehenderit? Et ullam, perspiciatis optio
+            sed asperiores obcaecati veritatis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur hic
+            maiores quos, ex eligendi saepe modi, illum deleniti sit sapiente quas in repudiandae eius quam quo dolores
+            harum voluptatibus reiciendis?</p>
+
+    </div>
+    <br>
+    <div>
+        <hr>
+    </div>
+    <div style="margin-top: 10%;" class="clearfix" style="float: left;">
+        <div class="image_container" style="float: left;">
+            <img src="pic2.png" alt="not found" width="33.33%">
+        </div>
+        <div class="image_container" style="float: left;">
+            <img src="pic2.png" alt="not found" width="33.33%">
+        </div>
+        <div class="image_container" style="float: left;">
+            <img src="pic2.png" alt="not found" width="33.33%">
+        </div>
+
+    </div>
+
+    <div>
+        <hr>
+    </div>
+</body>
+
+</html>
