@@ -1,0 +1,115 @@
+body {
+    background-color: lightskyblue;
+}
+
+.head {
+    height: 200px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-with-subtext {
+    position: relative;
+    font-size: 24px;
+    color: white;
+    font-size: xx-large;
+}
+
+.heading-with-subtext:after {
+    content: "Web Developer";
+    display: block;
+    font-size: 14px;
+    color: white;
+    font-size: large;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.aboutme {
+    margin: 40px;
+    background-color: aliceblue;
+    padding: 40px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.projects{
+    margin: 40px;
+    background-color: aliceblue;
+    padding: 40px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.project-images{
+    display: flex;
+    justify-content: space-around;
+}
+.project-details{
+    display: flex;
+    justify-content: space-around;
+}
+.education{
+    margin: 40px;
+    background-color: aliceblue;
+    padding: 40px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table, th, td, tr{
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+.contact{
+    margin: 40px;
+    background-color: aliceblue;
+    padding: 40px;
+    height: 350px;
+}
+.container {
+    margin: 40px;
+    background-color: aliceblue;
+    padding: 40px;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus {
+    border-color: dodgerblue;
+}
+
+.foot{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.socialmedia{
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+}
