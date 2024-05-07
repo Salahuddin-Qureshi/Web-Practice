@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage Example</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: antiquewhite;
+        }   
+        #container{
+            margin: 500px;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            padding: 20px;
+            gap: 20px;
+            border: solid black;
+            background-color: aliceblue;
+        }
+
+        #containershow{
+            padding: 20px;
+            gap: 20px;
+            border: solid black;
+            background-color: aliceblue;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Local Storage Example</h1>
+    <div id="container">
+        <h2>Register</h2>
+        <input type="text" placeholder="username" id="user"> <br> <br>
+        <input type="password" placeholder="password" id="pass"> <br> <br>
+        <button id="btn">Submit</button><br>
+    </div>
+
+    <div id="containershow">
+        <p id="username" style="border: 1px solid;"></p>
+        <p id="password"></p>
+    </div>
+
+    <script src="localstorage.js"></script>
+</body>
+</html>
