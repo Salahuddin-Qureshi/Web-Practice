@@ -1,0 +1,3 @@
+to do using local storage
+counter on refresh be same 
+fetch API
