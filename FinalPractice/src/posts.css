@@ -1,0 +1,10 @@
+.post
+{
+    background-color: antiquewhite;
+
+}
+
+.post:hover{
+    background-color: rgb(246, 211, 166);
+
+}

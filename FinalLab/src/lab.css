@@ -1,0 +1,14 @@
+#nav{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 40px;
+}
+
+/* #counter1, #counter2{
+    display: flex;
+    margin: 20px;
+} */
+#counter{
+    display: flex;
+    gap: 20px;
+}

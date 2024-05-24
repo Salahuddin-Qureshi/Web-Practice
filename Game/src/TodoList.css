@@ -1,0 +1,58 @@
+.todo-list {
+    width: 50%;
+    margin: 40px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    flex: 1; /* Take up remaining space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Add gap between text field and button */
+  }
+  
+  .add-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .task-item {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px; /* Add gap between task items */
+  }
+  
+  .status-button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .status-button:hover {
+    background-color: #f9f9f9;
+  }
+  

@@ -1,0 +1,19 @@
+
+.circle{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .rect{
+    background-color: aquamarine;
+    width: 150px;
+    height: 100px;
+  }
+  
+  .square{
+    background-color: rgb(48, 198, 148);
+    width: 100px;
+    height: 100px;
+  }
